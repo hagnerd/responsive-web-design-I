@@ -100,6 +100,12 @@ nav a {
 	margin-left: auto;
 }
 
+@media(max-width: 800px) {
+  .jumbotron > img {
+    display: none;
+  }
+}
+
 .cta {
 	width: 49%;
 	text-align: center;
