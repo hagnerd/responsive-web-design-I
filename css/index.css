@@ -97,6 +97,7 @@ nav a {
 
 @media (max-width: 800px) {
   .navbar {
+    margin-top: 30px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -118,11 +119,6 @@ nav a {
 	margin-left: auto;
 }
 
-@media(max-width: 800px) {
-  .jumbotron > img {
-    display: none;
-  }
-}
 
 .cta {
 	width: 49%;
@@ -143,6 +139,23 @@ nav a {
 	padding: 0 40px;
 	font-family: inherit;
 	font-size: 18px;
+}
+
+@media(max-width: 800px) {
+
+  .jumbotron {
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+
+  .jumbotron > img {
+    display: none;
+  }
+
+  .cta {
+    width: 100%; 
+    text-align: center;
+  }
 }
 
 header {
