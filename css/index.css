@@ -71,6 +71,22 @@ body {
 	margin: 0 auto;
 }
 
+.container {
+  max-width: 876px;
+  margin: 0 auto;
+}
+
+@media(max-width: 800px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 500px) {
+
+}
+
 .navbar {
   display: flex;
   align-items: center;
