@@ -218,6 +218,28 @@ h3 {
 	margin-right: 3%;
 }
 
+@media (max-width: 800px) {
+  .middle-img {
+    width: 700px;
+  }
+
+  .double-text-section, .triple-text-section {
+    margin: 0 5px;
+  }
+  .text-section {
+    margin: 15px 0;
+  }
+
+  .double-text-section > *:nth-child(1) {
+    margin-right: 30px;
+  }
+
+  .triple-text-section > *:nth-child(1), .triple-text-section > *:nth-child(2) {
+    margin-right: 30px;
+  }
+
+}
+
 .contact {
 	margin: 30px 0;
 }
